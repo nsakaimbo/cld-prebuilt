@@ -1,0 +1,8 @@
+# Compiled binary addons
+build/
+prebuilds/
+
+# Dependency directory
+node_modules
+
+/.vscode
