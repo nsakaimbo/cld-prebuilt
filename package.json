@@ -74,7 +74,7 @@
     "url": "git@github.com:nsakaimbo/cld-prebuilt.git"
   },
   "scripts": {
-    "install": "prebuild-install || node-gyp rebuild",
+    "install": "prebuild-install -t 1.7.16 -r electron || node-gyp rebuild",
     "postinstall": "node bin/postinstall.js",
     "test": "node test/runner.js"
   },
